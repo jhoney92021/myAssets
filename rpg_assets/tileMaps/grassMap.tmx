@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="grass" tilewidth="32" tileheight="32" tilecount="11" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="22">
+   <image width="32" height="32" source="../tile_raw/grass_base.png"/>
+  </tile>
+  <tile id="23">
+   <image width="32" height="32" source="../tile_raw/grass_shaded.png"/>
+  </tile>
+  <tile id="24">
+   <image width="32" height="32" source="../tile_raw/grass_shaded_bottom.png"/>
+  </tile>
+  <tile id="25">
+   <image width="32" height="32" source="../tile_raw/grass_shaded_bottom_left.png"/>
+  </tile>
+  <tile id="26">
+   <image width="32" height="32" source="../tile_raw/grass_shaded_bottom_right.png"/>
+  </tile>
+  <tile id="27">
+   <image width="32" height="32" source="../tile_raw/grass_shaded_left.png"/>
+  </tile>
+  <tile id="28">
+   <image width="32" height="32" source="../tile_raw/grass_shaded_right.png"/>
+  </tile>
+  <tile id="29">
+   <image width="32" height="32" source="../tile_raw/grass_shaded_thick.png"/>
+  </tile>
+  <tile id="30">
+   <image width="32" height="32" source="../tile_raw/grass_shaded_top.png"/>
+  </tile>
+  <tile id="31">
+   <image width="32" height="32" source="../tile_raw/grass_shaded_top_left.png"/>
+  </tile>
+  <tile id="32">
+   <image width="32" height="32" source="../tile_raw/grass_shaded_top_right.png"/>
+  </tile>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="10" height="10">
+  <data encoding="csv">
+32,31,31,31,31,31,31,31,31,29,
+32,24,24,24,24,24,24,24,24,33,
+32,24,30,30,30,30,30,30,24,33,
+32,24,30,30,30,30,30,30,24,33,
+32,24,30,30,30,30,30,30,24,33,
+32,24,30,30,30,30,30,30,24,33,
+32,24,30,30,30,30,30,30,24,33,
+32,24,30,30,30,30,30,30,24,33,
+32,24,24,24,24,24,24,24,24,33,
+26,25,25,25,25,25,25,25,25,27
+</data>
+ </layer>
+</map>
